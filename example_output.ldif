@@ -1,0 +1,45 @@
+dn: cn=test_group,cn=users,dc=logpoint,dc=local
+cn: test_group
+objectClass: top
+objectClass: group
+
+dn: cn=Ossama Griffith,cn=Users,dc=logpoint,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Ossama Griffith
+sn: Griffith
+sAMAccountName: GriffitO
+userPassword: Password1
+givenName: Ossama
+
+dn: cn=Ram Khanal,cn=Users,dc=logpoint,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Ram Khanal
+sn: Khanal
+sAMAccountName: Ram0
+userPassword: Password1
+givenName: Ram
+
+dn: cn=Hari Poudel,cn=Users,dc=logpoint,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: Hari Poudel
+sn: Poudel
+sAMAccountName: Hari0
+userPassword: Password1
+givenName: Hari
+
+dn: cn=test_group,cn=users,dc=logpoint,dc=local
+changetype: modify
+add: member
+member: cn=Ossama Griffith,cn=Users,dc=logpoint,dc=local
+member: cn=Ram Khanal,cn=Users,dc=logpoint,dc=local
+member: cn=Hari Poudel,cn=Users,dc=logpoint,dc=local
+-

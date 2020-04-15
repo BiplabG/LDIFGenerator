@@ -1,0 +1,7 @@
+{
+    "domain":["logpoint", "local"],
+    "number_of_entries":5000,
+    "data_path":"./data/",
+    "out_file":"output.ldif",
+    "group_modify_file":"group_modify.ldif"
+}
